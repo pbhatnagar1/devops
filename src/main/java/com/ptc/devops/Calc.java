@@ -5,7 +5,7 @@ public class Calc {
 	public int add (int a, int b)  {
 		return a+ b;
 	}
-	
+//TODO
 	
 	public int divide(String a , String b) {
 		int i = Integer.parseInt(a);
