@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>Day1</groupId>
-  <artifactId>demo3</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Day1</groupId>
+	<artifactId>demo3</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -14,5 +15,19 @@
 		</dependency>
 
 	</dependencies>
-	
+
+	<repositories>
+		<repository>
+			<id>my-repo</id>
+			<name>Devops repo</name>
+			<url>https://github.com/pbhatnagar1/devops</url>
+		</repository>
+		<!-- <repository> <id>my-repo2</id> <name>your custom repo</name> <url>http://jarsm2.dyndns.dk</url> 
+			</repository> -->
+	</repositories>
+
+	<properties>
+		<github.global.server>github</github.global.server>
+	</properties>
+
 </project>
